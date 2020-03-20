@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from "axios";
-import Card from "./components/card";
+import Cards from "./components/card";
 import styled from "styled-components";
 import {Container, Row, Col} from "reactstrap";
 import Paginat from "./components/pagination";
@@ -39,7 +39,7 @@ const App = () => {
 
       <MainContainer className="star-wars-char" >
         {starWars.map((item) => (
-          <Card card={item} />
+          <Cards cards={item} />
           ))}
       </MainContainer>
           <Paginat first/>
