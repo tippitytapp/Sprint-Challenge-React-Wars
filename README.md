@@ -26,23 +26,33 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+--reactjs is a library for which we yse to write our javascript more effeciently. where we can in our html, css, and javascript and traverse data more effectively
+
 - [ ] What does it mean to _think_ in react?
+
+---means that a single componenet should handle a single task.
 
 - [ ] Describe state.
 
+-- state is teh current value given to something, be it true, false, an object, an array, or a string.
+
 - [ ] Describe props.
 
+--props is a way of passing data from the source across components
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+--side effects are lingering effects of something such as a click event that you must clean up by removing the eventhandler
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `npm install` to retrieve all needed dependencies.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x] Change directories into `./starwars` (`cd starwars`) and run `npm install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
